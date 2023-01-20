@@ -12,7 +12,6 @@ const scoreEl = document.getElementById("score");
 const questionEl = document.getElementById("question");
 const formEl = document.getElementById("form");
 const inputEl = document.getElementById("input");
-const messageEl = document.getElementById("message");
 const clearBtnEl = document.getElementById("btn-clear");
 const number1El = document.getElementById("number1");
 const number2El = document.getElementById("number2");
@@ -28,7 +27,7 @@ number2El.innerHTML = `${num2}`;
 const correctAns = num1 * num2;
 
 //event 
-messageEl.style.display = 'none';
+
 formEl.addEventListener('submit',() => {
     const userAns = +inputEl.value;
     if(correctAns === userAns) {
