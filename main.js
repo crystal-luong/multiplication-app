@@ -11,11 +11,14 @@ if (!scores) {
 const scoreEl = document.getElementById("score");
 const questionEl = document.getElementById("question");
 const formEl = document.getElementById("form");
-const inputEl = document.getElementById("input")
-const messageEl = document.getElementById("message")
-const clearBtnEl = document.getElementById("btn-clear")
+const inputEl = document.getElementById("input");
+const messageEl = document.getElementById("message");
+const clearBtnEl = document.getElementById("btn-clear");
+const number1El = document.getElementById("number1");
+const number2El = document.getElementById("number2");
 //truyen cau hoi ngau nhien vao question
-question.innerHTML = `What is ${num1} multiply by ${num2}`
+number1El.innerHTML = `${num1}`;
+number2El.innerHTML = `${num2}`;
 
 
 

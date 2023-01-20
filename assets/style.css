@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
@@ -26,13 +27,15 @@ body {
    text-align: right;
     margin-top: 20px;
     font-size: 1.3em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 
+}
+.number {
+    color: #fe5536;
 }
 #question {
     font-weight: bold;
     margin-top: 20px;
-    font-family: cursive;
     margin-bottom: 20px;
 }
 #input {
@@ -47,7 +50,7 @@ body {
 }
 #input::placeholder {
     color: lightgray;
-    font-family: cursive;
+    
 }
 #submit {
     width: 100%;
@@ -55,7 +58,6 @@ body {
     margin-top: 10px;
     background-color: #ccc;
     color: black;
-    font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
@@ -75,7 +77,6 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     border: 1px solid #ccc;
     color: #fff ;
-    font-family: cursive;
     background-color: #fe5536;
 
 }
