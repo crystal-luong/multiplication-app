@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d6d0ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#form {
+    border: 1px solid #ccc;
+    background-color: #fff ;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0 ,0 , 0.3);
+    margin: 10px;
+}
+#score {
+    color: green;
+    font-weight: bold;
+   text-align: right;
+    margin-top: 20px;
+    font-size: 1.3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#question {
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+#input {
+    display: block;
+    width: 100%;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px;
+    border: solid 4px green;
+    color: green;
+    
+}
+#input::placeholder {
+    color: lightgray;
+    font-family: cursive;
+}
+#submit {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ccc;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+#submit:hover {
+    background-color: green;
+    color: #fff;
+}
+#btn-clear {
+    margin-top: 20px;
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border: 1px solid #ccc;
+    color: #fff ;
+    font-family: cursive;
+    background-color: #fe5536;
+
+}
+#btn-clear:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
