@@ -16,6 +16,7 @@ const messageEl = document.getElementById("message");
 const clearBtnEl = document.getElementById("btn-clear");
 const number1El = document.getElementById("number1");
 const number2El = document.getElementById("number2");
+
 //truyen cau hoi ngau nhien vao question
 number1El.innerHTML = `${num1}`;
 number2El.innerHTML = `${num2}`;
@@ -25,7 +26,9 @@ number2El.innerHTML = `${num2}`;
 
 // khai bao bien dap an dung
 const correctAns = num1 * num2;
+
 //event 
+messageEl.style.display = 'none';
 formEl.addEventListener('submit',() => {
     const userAns = +inputEl.value;
     if(correctAns === userAns) {
@@ -33,6 +36,8 @@ formEl.addEventListener('submit',() => {
         scores++;
         console.log(scores);
         updateLocalStorage();
+       
+
         
         
     } else {

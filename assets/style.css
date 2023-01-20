@@ -11,7 +11,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
+    
+} 
 #form {
     border: 1px solid #ccc;
     background-color: #fff ;
@@ -32,11 +33,14 @@ body {
 }
 .number {
     color: #fe5536;
+    font-size: 24px;
+    
 }
 #question {
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 24px;
 }
 #input {
     display: block;
